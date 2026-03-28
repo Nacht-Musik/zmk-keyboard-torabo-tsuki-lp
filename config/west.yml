@@ -8,7 +8,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       # revision: v0.3
-      revision: mai
+      revision: main
       import: app/west.yml
     - name: zmk-component-bmp-boost
       remote: sekigon-gonnoc
