@@ -160,3 +160,10 @@
     kscan = <&kscan0>;
     transform = <&size_l_transform>;
 };
+
+/omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
+    compatible = "zmk,input-processor-temp-layer";
+    #input-processor-cells = <1>;
+    require-prior-idle-ms = <2000>;
+    excluded-positions = <14 15 16 19 20 21 26 27 28 33 34 35 40 41 42 47 48 49>;
+};
