@@ -3,7 +3,7 @@
     device = <&pointing_device>;
 
     /* トラックボール検出でレイヤー1を有効化 */
-    execute-on-tick = <&sl 1>;
+    set-layer = <1>;
     
     /* 1000ms間操作がない場合に元のレイヤーに戻る */
     timeout-ms = <1000>;
