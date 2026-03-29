@@ -13,6 +13,21 @@
             key-positions = <28 29>;
             layers = <2>;
         };
+
+        left-mouse-keys {
+            bindings = <&none>;
+            key-positions = <26 27 28 14 16>;
+        };
+
+        right-mouse-keys {
+            bindings = <&none>;
+            key-positions = <34 35 36 22 20>;
+        };
+
+        shift-keys {
+            bindings = <&none>;
+            key-positions = <59 38>;
+        };
     };
 
     keymap {
