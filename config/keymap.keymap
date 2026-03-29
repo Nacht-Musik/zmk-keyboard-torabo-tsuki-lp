@@ -28,6 +28,11 @@
             bindings = <&none>;
             key-positions = <59 38>;
         };
+
+        control-keys {
+            bindings = <&none>;
+            key-positions = <24 44>;
+        };
     };
 
     keymap {
