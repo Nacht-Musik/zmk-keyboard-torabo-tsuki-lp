@@ -26,7 +26,7 @@
 
         shift-keys {
             bindings = <&none>;
-            key-positions = <59 38>;
+            key-positions = <59 38 39 50>;
         };
 
         control-keys {
