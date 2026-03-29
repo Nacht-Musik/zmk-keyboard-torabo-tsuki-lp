@@ -21,7 +21,7 @@
 
         right-mouse-keys {
             bindings = <&none>;
-            key-positions = <34 35 36 22 20>;
+            key-positions = <34 35 19 33 21>;
         };
 
         shift-keys {
