@@ -4,11 +4,13 @@
 
 &zip_temp_layer {
     require-prior-idle-ms = <300>;
+/*
     excluded-positions = <
         14 16 26 27 28
         19 21 33 34 35
         39 50
     >;
+*/
 };
 
 &pointing_listener {
