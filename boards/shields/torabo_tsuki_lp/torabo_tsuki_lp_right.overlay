@@ -12,6 +12,7 @@
     excluded-positions = <19 21 35 34 33 36>;
 };
 
+/*
 &pointing_listener {
     scroller = {
         layer = <2>;
@@ -22,6 +23,7 @@
         >;
     };
 };
+*/
 
 &pointing_listener {
     // input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
