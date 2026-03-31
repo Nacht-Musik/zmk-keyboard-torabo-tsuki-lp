@@ -9,7 +9,8 @@
         19 21 33 34 35
         39 50
     >; */
-    excluded-positions = <19 21 35 34 33 36>;
+    //excluded-positions = <19 21 35 34 33 36>;
+    excluded-positions = <35 34 33 36 47 49>;
 };
 
 /*
