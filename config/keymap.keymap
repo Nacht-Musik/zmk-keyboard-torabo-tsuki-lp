@@ -28,6 +28,11 @@
             bindings = <&tog 5>;
             key-positions = <58 59>;
         };
+
+        togle_output {
+            bindings = <&out OUT_TOG>;
+            key-positions = <58 57 56>;
+        };
     };
 
     keymap {
