@@ -33,11 +33,6 @@
             bindings = <&out OUT_TOG>;
             key-positions = <58 57 56>;
         };
-
-        ctrl_keys {
-            bindings = <&none>;
-            key-positions = <56>;
-        };
     };
 
     keymap {
