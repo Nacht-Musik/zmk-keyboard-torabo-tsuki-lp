@@ -21,7 +21,7 @@
 
         shift_keys {
             bindings = <&none>;
-            key-positions = <44 45 39 50>;
+            key-positions = <39 50>;
         };
 
         EnableBTlaye {
@@ -32,6 +32,11 @@
         togle_output {
             bindings = <&out OUT_TOG>;
             key-positions = <58 57 56>;
+        };
+
+        ctrl_keys {
+            bindings = <&none>;
+            key-positions = <56>;
         };
     };
 
