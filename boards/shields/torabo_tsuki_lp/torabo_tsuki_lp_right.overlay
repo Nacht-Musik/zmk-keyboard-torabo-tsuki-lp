@@ -10,7 +10,7 @@
         39 50
     >; */
     // mouse click keys
-    excluded-positions = <35 34 33 47 49 48 20>;
+    excluded-positions = <35 34 33 47 49 48 20 39 50 56>;
 };
 
 /*
