@@ -19,9 +19,9 @@
             key-positions = <35 34 33 36>;
         };
 
-        shift_keys {
+        shift_ctrl_keys {
             bindings = <&none>;
-            key-positions = <39 50>;
+            key-positions = <39 50 56>;
         };
 
         EnableBTlaye {
