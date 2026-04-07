@@ -16,7 +16,7 @@
 
         mouseButton {
             bindings = <&none>;
-            key-positions = <35 34 33 36>;
+            key-positions = <35 34 33 36 48 20>;
         };
 
         shift_ctrl_keys {
@@ -50,11 +50,11 @@
 
         L1_mouse {
             bindings = <
-&trans          &trans          &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans           &trans
-&trans          &trans          &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans           &trans
-&trans          &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo 2            &trans
-&kp LEFT_SHIFT  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &kp RIGHT_SHIFT  &kp RIGHT_SHIFT
-&trans          &trans          &trans  &trans  &trans  &none   &none   &none   &none   &trans     &trans     &trans     &trans           &trans
+&trans          &trans          &trans  &trans  &trans  &trans                  &trans  &trans     &trans          &trans     &trans           &trans
+&trans          &trans          &trans  &trans  &trans  &trans                  &trans  &trans     &msc SCRL_UP    &trans     &trans           &trans
+&trans          &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK       &mkp RCLK  &mo 2            &trans
+&kp LEFT_SHIFT  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &msc SCRL_DOWN  &trans     &kp RIGHT_SHIFT  &kp RIGHT_SHIFT
+&trans          &trans          &trans  &trans  &trans  &none   &none   &none   &none   &trans     &trans          &trans     &trans           &trans
             >;
         };
 
