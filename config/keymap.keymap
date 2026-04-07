@@ -50,11 +50,11 @@
 
         L1_mouse {
             bindings = <
-&trans          &trans          &trans  &trans  &trans  &trans                  &trans  &trans     &trans            &trans     &trans           &trans
-&trans          &trans          &trans  &trans  &trans  &trans                  &trans  &trans     &trans            &trans     &trans           &trans
-&trans          &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK         &mkp RCLK  &mo 2            &trans
-&kp LEFT_SHIFT  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &msc MOVE_Y(-20)  &trans     &kp RIGHT_SHIFT  &kp RIGHT_SHIFT
-&trans          &trans          &trans  &trans  &trans  &none   &none   &none   &none   &trans     &trans            &trans     &trans           &trans
+&trans          &trans          &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans           &trans
+&trans          &trans          &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans           &trans
+&trans          &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo 2            &trans
+&kp LEFT_SHIFT  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &kp RIGHT_SHIFT  &kp RIGHT_SHIFT
+&trans          &trans          &trans  &trans  &trans  &none   &none   &none   &none   &trans     &trans     &trans     &trans           &trans
             >;
         };
 
