@@ -50,11 +50,11 @@
 
         layer_1_mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans            &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &msc MOVE_Y(20)   &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK         &mkp RCLK  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &msc MOVE_Y(-20)  &mkp MB5   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans            &trans     &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans            &trans     &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &msc MOVE_Y(20)   &trans     &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK         &mkp RCLK  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &msc MOVE_Y(-20)  &mkp MB5   &trans  &kp RIGHT_SHIFT
+&trans          &trans  &trans  &trans  &trans  &none   &none   &none   &none   &trans     &trans            &trans     &trans  &trans
             >;
         };
 
