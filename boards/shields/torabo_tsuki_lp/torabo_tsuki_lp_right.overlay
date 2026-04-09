@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/input_transform.h>
 
 &zip_temp_layer {
-    require-prior-idle-ms = <600>;
+    require-prior-idle-ms = <200>;
     // mouse click keys
     excluded-positions = <20 48 33 34 35 36 39 50 56>;
 };
