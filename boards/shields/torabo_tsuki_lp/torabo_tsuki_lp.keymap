@@ -1,3 +1,19 @@
 
+/ {
+    // 振る舞い動作カスタマイズの記述箇所
+    behaviors {
+        // ここに独自のhold-tap動作を定義
+        rpi: require_prior_idle {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
+};
+
 #include "../../../config/keymap.keymap"
 
