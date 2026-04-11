@@ -2,12 +2,15 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
+// AML用の設定
 &zip_temp_layer {
+    // AML on のしきい値(ms)
     require-prior-idle-ms = <400>;
-    // mouse click keys
+    // mouse click keys (key番号はCOMBOで確認可能)
     excluded-positions = <20 48 33 34 35 36 39 50 56>;
 };
 
+// [未完成] Scrollレイヤー時のみトラックボールでスクロール
 /*
 &pointing_listener {
     
@@ -28,11 +31,16 @@
 */
 
 &pointing_listener {
-    // input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
+    // AML無し設定
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
+
+    // AML有り設定
+    /*
     input-processors = <
         &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
         &zip_temp_layer 1 10000
     >;
+    */
 };
 
 &size_s_transform {
