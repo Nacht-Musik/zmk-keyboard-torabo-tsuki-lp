@@ -35,6 +35,11 @@
             bindings = <&out OUT_TOG>;
             key-positions = <58 57 56>;
         };
+
+        Right_Gui_Key {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <64 63>;
+        };
     };
 
     keymap {
