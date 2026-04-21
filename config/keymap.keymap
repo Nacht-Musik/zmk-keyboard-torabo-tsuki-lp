@@ -31,7 +31,7 @@
             key-positions = <58 59>;
         };
 
-        R-GUI_key {
+        Right_GUI_key {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <64 63>;
         };
