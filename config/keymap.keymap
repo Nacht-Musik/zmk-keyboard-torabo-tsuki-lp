@@ -27,13 +27,8 @@
         };
 
         EnableBTlaye {
-            bindings = <&tog 6>;
+            bindings = <&mo 6>;
             key-positions = <58 59>;
-        };
-
-        togle_output {
-            bindings = <&out OUT_TOG>;
-            key-positions = <58 57 56>;
         };
 
         Right_Gui_Key {
@@ -111,7 +106,7 @@
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                              &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &trans
 &trans  &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans         &trans         &trans         &trans         &trans         &trans
 &trans  &trans        &trans        &bt BT_CLR    &trans        &trans        &out OUT_BLE  &out OUT_USB  &trans         &trans         &trans         &trans         &trans         &trans
-&trans  &trans        &trans        &trans        &trans        &bt BT_NXT    &bt BT_PRV    &trans        &trans         &trans         &trans         &trans         &trans         &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans         &trans         &trans         &trans         &trans         &trans
             >;
         };
     };
