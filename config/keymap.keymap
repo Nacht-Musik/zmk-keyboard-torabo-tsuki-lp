@@ -35,6 +35,11 @@
             bindings = <&kp RIGHT_GUI>;
             key-positions = <64 63>;
         };
+
+        Left_GUI_Key {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <53 54>;
+        };
     };
 
     keymap {
