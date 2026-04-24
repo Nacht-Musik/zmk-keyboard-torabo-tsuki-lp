@@ -89,8 +89,8 @@
             bindings = <
 &trans  &trans            &trans            &trans          &trans           &trans                             &trans            &trans            &trans             &trans                &trans               &trans
 &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)      &kp LS(N4)       &kp LS(N5)                         &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_8)   &kp LS(NUMBER_9)      &kp LS(NUMBER_0)     &kp DEL
-&trans  &trans            &trans            &kp UP_ARROW    &trans           &kp TILDE          &trans  &trans  &kp PIPE          &kp MINUS         &kp EQUAL          &kp NON_US_BACKSLASH  &kp GRAVE            &trans
-&trans  &trans            &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOUBLE_QUOTES  &trans  &trans  &kp COLON         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON         &mt RIGHT_SHIFT SQT  &trans
+&trans  &kp PIPE          &trans            &kp UP_ARROW    &kp LEFT_BRACE   &kp RIGHT_BRACE    &trans  &trans  &kp PLUS          &kp MINUS         &kp EQUAL          &kp NON_US_BACKSLASH  &kp GRAVE            &trans
+&trans  &kp COLON         &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOUBLE_QUOTES  &trans  &trans  &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON         &mt RIGHT_SHIFT SQT  &trans
 &trans  &trans            &trans            &trans          &trans           &trans             &trans  &trans  &trans            &trans            &trans             &trans                &trans               &trans
             >;
         };
