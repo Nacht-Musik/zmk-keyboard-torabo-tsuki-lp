@@ -57,11 +57,11 @@
 
         L1_mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB5        &msc SCRL_UP    &mkp MB4         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans                  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &mkp MB5        &msc SCRL_UP    &mkp MB4         &trans                  &trans  &mkp MB5        &msc SCRL_UP    &mkp MB4         &trans  &trans
+&trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans  &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
+&trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans
             >;
         };
 
