@@ -8,7 +8,7 @@
     require-prior-idle-ms = <400>;
     // mouse click keys (key番号はCOMBOで確認可能)
     // excluded-positions = <20 48 33 34 35 36 39 50 56>;
-    excluded-positions = <35 34 33 58 56 19 21>;;
+    excluded-positions = <35 34 33 58 56 19 21>;
 };
 
 // [未完成] Scrollレイヤー時のみトラックボールでスクロール
