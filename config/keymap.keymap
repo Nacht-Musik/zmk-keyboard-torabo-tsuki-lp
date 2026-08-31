@@ -18,12 +18,12 @@
 
         mouseButton {
             bindings = <&none>;
-            key-positions = <35 34 33 36 48 20>;
+            key-positions = <35 34 33 36 48 20 58 56>;
         };
 
         shift_ctrl_keys {
             bindings = <&none>;
-            key-positions = <39 50 56>;
+            key-positions = <56 58>;
         };
 
         EnableBTlaye {
