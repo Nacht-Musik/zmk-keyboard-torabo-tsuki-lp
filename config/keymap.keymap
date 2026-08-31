@@ -47,21 +47,21 @@
 
         L0_base {
             bindings = <
-&kp ESC      &kp N1      &kp N2   &kp N3        &kp N4            &kp N5                                        &kp N6       &kp N7  &kp N8     &kp N9     &kp N0           &kp MINUS
-&kp TAB      &kp Q       &kp W    &kp E         &kp R             &kp T                                         &kp Y        &kp U   &kp I      &kp O      &kp P            &kp BSPC
-&kp RCTRL    &kp A       &kp S    &kp D         &kp F             &kp G        &mkp LCLK       &mkp RCLK        &kp H        &kp J   &kp K      &kp L      &lt 1 SEMICOLON  &kp SQT
-&kp LSHFT    &kp Z       &kp X    &kp C         &kp V             &kp B        &kp BACKSPACE   &kp RIGHT_WIN    &kp N        &kp M   &kp COMMA  &kp DOT    &kp SLASH        &kp MINUS
-&lt 1 SPACE  &kp ESCAPE  &kp TAB  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 4 SPACE  &kp LEFT_SHIFT  &lt 3 LC(SPACE)  &lt 5 ENTER  &trans  &trans     &kp GRAVE  &kp MINUS        &mt RIGHT_ALT GRAVE
+&kp ESC      &kp N1      &kp N2   &kp N3        &kp N4            &kp N5                                        &kp N6       &kp N7  &kp N8     &kp N9     &kp N0         &kp MINUS
+&kp TAB      &kp Q       &kp W    &kp E         &kp R             &kp T                                         &kp Y        &kp U   &kp I      &kp O      &kp P          &kp BSPC
+&kp RCTRL    &kp A       &kp S    &kp D         &kp F             &kp G        &mkp LCLK       &mkp RCLK        &kp H        &kp J   &kp K      &kp L      &kp SEMICOLON  &kp SQT
+&kp LSHFT    &kp Z       &kp X    &kp C         &kp V             &kp B        &kp BACKSPACE   &kp RIGHT_WIN    &kp N        &kp M   &kp COMMA  &kp DOT    &kp SLASH      &kp MINUS
+&lt 1 SPACE  &kp ESCAPE  &kp TAB  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 4 SPACE  &kp LEFT_SHIFT  &lt 3 LC(SPACE)  &lt 5 ENTER  &trans  &trans     &kp GRAVE  &kp MINUS      &mt RIGHT_ALT GRAVE
             >;
         };
 
         L1_mouse {
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans                  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &mkp MB5        &msc SCRL_UP    &mkp MB4         &trans                  &trans  &mkp MB5        &msc SCRL_UP    &mkp MB4         &trans  &trans
-&trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans  &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
-&trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans                  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &mkp MB5   &trans     &mkp MB4   &trans                  &trans  &mkp MB5   &trans     &mkp MB4   &trans  &trans
+&trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
             >;
         };
 
@@ -77,11 +77,11 @@
 
         L3_number {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans                        &trans          &trans          &trans        &trans           &trans         &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0   &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp SEMICOLON  &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans          &trans          &kp COMMA     &kp PERIOD       &kp SLASH      &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans          &trans          &trans        &trans           &trans         &trans
+&trans  &trans        &trans        &trans        &trans        &trans                              &trans          &trans          &trans        &trans           &trans         &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0   &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp SEMICOLON  &trans
+&trans  &trans        &trans        &trans        &trans        &out OUT_BLE  &out OUT_USB  &trans  &trans          &trans          &kp COMMA     &kp PERIOD       &kp SLASH      &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans        &trans  &trans          &trans          &trans        &trans           &trans         &trans
             >;
         };
 
@@ -99,19 +99,19 @@
             bindings = <
 &trans  &trans   &trans          &trans          &trans           &trans                      &trans    &trans         &trans          &trans          &trans           &trans
 &trans  &kp F1   &kp F2          &kp F3          &kp F4           &kp F5                      &kp F6    &kp F7         &kp F8          &kp F9          &kp F10          &trans
-&trans  &kp F11  &kp F12         &kp UP_ARROW    &trans           &trans  &trans      &trans  &kp HOME  &kp PG_UP      &trans          &kp UP_ARROW    &trans           &trans
-&trans  &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp DELETE  &trans  &kp END   &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans   &trans          &kp LEFT_GUI    &trans           &trans  &trans      &trans  &trans    &trans         &trans          &trans          &trans           &trans
+&trans  &kp F11  &kp F12         &msc SCRL_UP    &trans           &trans  &trans      &trans  &kp HOME  &kp PG_UP      &trans          &msc SCRL_UP    &trans           &trans
+&trans  &trans   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &kp DELETE  &trans  &kp END   &kp PAGE_DOWN  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans
+&trans  &trans   &trans          &trans          &trans           &trans  &trans      &trans  &trans    &trans         &trans          &trans          &trans           &trans
             >;
         };
 
         L6_bt {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans                                    &trans         &trans         &trans         &trans         &trans         &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                              &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans         &trans         &trans         &trans         &trans         &trans
-&trans  &trans        &trans        &bt BT_CLR    &trans        &trans        &out OUT_BLE  &out OUT_USB  &trans         &trans         &trans         &trans         &trans         &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans         &trans         &trans         &trans         &trans         &trans
+&trans  &trans        &trans        &trans        &trans        &trans                              &trans         &trans         &trans         &trans         &trans         &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                        &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans        &trans  &trans         &trans         &trans         &trans         &trans         &trans
+&trans  &trans        &trans        &bt BT_CLR    &trans        &out OUT_BLE  &out OUT_USB  &trans  &trans         &trans         &trans         &trans         &trans         &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans        &trans  &trans         &trans         &trans         &trans         &trans         &trans
             >;
         };
     };
