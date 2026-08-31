@@ -8,6 +8,8 @@
     require-prior-idle-ms = <400>;
     // mouse click keys (key番号はCOMBOで確認可能)
     excluded-positions = <20 48 33 34 35 36 39 50 56>;
+    // AMLの有効時間
+    timeout-ms = <1000>;
 };
 
 // [未完成] Scrollレイヤー時のみトラックボールでスクロール
@@ -35,7 +37,6 @@
     //input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 
     // AML有り設定
-    
     input-processors = <
         &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
         &zip_temp_layer 1 250
