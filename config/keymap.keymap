@@ -18,7 +18,7 @@
 
         mouseButton {
             bindings = <&none>;
-            key-positions = <35 34 33 58 56 19 21>;
+            key-positions = <35 34 33 58 56 19 21 20 48 47 49 27 28 16 15 14 26 40 41 42>;
         };
 
         shift_ctrl_keys {
