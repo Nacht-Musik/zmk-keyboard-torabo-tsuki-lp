@@ -7,7 +7,7 @@
     // AML on のしきい値(ms)
     require-prior-idle-ms = <400>;
     // mouse click keys (key番号はCOMBOで確認可能)
-    excluded-positions = <35 34 33 58 56 19 21 20 48 47 49 27 28 16 15 14 26 40 41 42 57 60>;
+    excluded-positions =  <35 34 33 58 56 19 21 20 48 47 49 57 53 25>;
     //excluded-positions = <35 34 33 58 56 19 21>;
 };
 
