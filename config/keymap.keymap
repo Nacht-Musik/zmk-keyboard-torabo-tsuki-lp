@@ -29,6 +29,16 @@
             bindings = <&kp LEFT_GUI>;
             key-positions = <53 54>;
         };
+
+        Left_GUI2 {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <39 40>;
+        };
+
+        Right_GUI2 {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <50 49>;
+        };
     };
 
     keymap {
