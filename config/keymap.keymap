@@ -12,7 +12,7 @@
 
         mouseButton {
             bindings = <&none>;
-            key-positions = <35 34 33 58 56 19 21 20 48 47 49 57 53>;
+            key-positions = <35 34 33 58 56 19 21 57 53>;
         };
 
         EnableBTlaye {
