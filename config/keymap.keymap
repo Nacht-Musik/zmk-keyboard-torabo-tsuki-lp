@@ -15,19 +15,9 @@
             key-positions = <35 34 33 58 56 57 53 36 48 20>;
         };
 
-        EnableBTlaye {
+        MoBTLayer {
             bindings = <&lt 6 LEFT_SHIFT>;
             key-positions = <58 59>;
-        };
-
-        Right_Gui_Key {
-            bindings = <&kp RIGHT_GUI>;
-            key-positions = <64 63>;
-        };
-
-        Left_GUI_Key {
-            bindings = <&kp LEFT_GUI>;
-            key-positions = <53 54>;
         };
 
         Left_GUI2 {
@@ -45,14 +35,9 @@
             key-positions = <27 28>;
         };
 
-        to.mouse_cad {
-            bindings = <&to 2>;
-            key-positions = <21 22>;
-        };
-
         to_mouse_cad_2 {
             bindings = <&to 2>;
-            key-positions = <35 36>;
+            key-positions = <34 33>;
         };
     };
 
