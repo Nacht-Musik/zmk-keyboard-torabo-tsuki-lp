@@ -60,7 +60,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &msc SCRL_UP    &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK       &mkp RCLK  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &msc SCRL_DOWN  &trans     &trans  &trans
-&trans  &to 0   &trans  &trans  &trans  &to 0   &trans  &to 0   &to 0   &trans     &trans          &trans     &trans  &trans
+&trans  &to 0   &trans  &trans  &trans  &to 0   &trans  &to 0   &trans  &trans     &trans          &trans     &trans  &trans
             >;
         };
 
@@ -70,7 +70,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans          &msc SCRL_UP    &trans           &mkp MB5  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &mkp MB4  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans    &trans
-&trans  &to 0   &trans  &trans  &trans  &to 0   &trans  &to 0   &to 0   &trans          &trans          &trans           &trans    &trans
+&trans  &to 0   &trans  &trans  &trans  &to 0   &trans  &to 0   &trans  &trans          &trans          &trans           &trans    &trans
             >;
         };
 
