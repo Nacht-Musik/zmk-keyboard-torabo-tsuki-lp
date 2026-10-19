@@ -11,35 +11,17 @@
     excluded-positions = <35 34 33 58 56 57 53 36 48 20>;
 };
 
-// [未完成] Scrollレイヤー時のみトラックボールでスクロール
-/*
-&pointing_listener {
-    
-    input-processors = <
-        &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
-        &zip_temp_layer 1 10000
-    >;
-    
-    scroller = {
-        layer = <2>;
-        // x1.5 speed
-        input-processors = <
-            &zip_xy_to_scroll_mapper
-            &zip_scroll_scaler 3 2
-        >;
-    };
-};
-*/
-
 &pointing_listener {
     // AML無し設定
-    //input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 
     // AML有り設定  ($zip_temp_layer <layer_num> <timeout[ms]>)
+    /*
     input-processors = <
         &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
         &zip_temp_layer 1 1000
     >;
+    */
     
 };
 
